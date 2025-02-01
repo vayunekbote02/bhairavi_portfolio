@@ -25,7 +25,7 @@ const Home = () => (
         {/* Profile Photo */}
         <motion.div
           variants={fadeIn}
-          className="flex-shrink-0 relative -mt-20 max-sm:mx-auto sm:-mt-10"
+          className="flex-shrink-0 relative -mt-20 max-sm:mx-auto sm:-mt-2"
           style={{ top: "50%" }}
         >
           <img
@@ -38,16 +38,16 @@ const Home = () => (
         {/* Profile Details */}
         <motion.div variants={fadeIn} className="flex-grow">
           <h1 className="text-4xl font-bold mb-2 sm:mt-20">Bhairavi Ekbote</h1>
-          <p className="text-gray-700 ">
-            Sustainable Technology, KTH | Institute Of Chemical Technology |
-            Patent - Energy Efficient Cryogenic Grinder
+          <p className="text-gray-700 flex flex-col">
+            <span>Master&apos;s Student Sustainable Technology</span>
+            <span>KTH Royal Institute of Technology</span>
           </p>
           <p className="text-gray-700 mt-1">
             Stockholm, Stockholm County, Sweden
           </p>
           <p className="flex flex-col sm:flex-row sm:gap-4 mt-2">
-            <span>Email: bhairaviekbote@gmail.com</span>
-            <span>Contact No: +46 73 490 45 43</span>
+            <span>Email: bhairavi.ekbote@gmail.com</span>
+            <span>Contact No: (+46)73490-4543</span>
           </p>
         </motion.div>
       </div>
@@ -56,9 +56,33 @@ const Home = () => (
       <motion.div variants={fadeIn} className="mt-6">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-gray-700 mb-4">
-          I am a passionate developer and researcher with a focus on creating
-          impactful solutions. My career is driven by innovation and a love for
-          problem-solving.
+          Graduate student in Sustainable Technology with expertise in circular
+          economy strategies, sustainable innovations, and resourceefficient
+          solutions for industries, including ESG frameworks and sustainable
+          finance. Expertise in conducting Life Cycle Assessments (LCA),
+          Material Flow Analysis (MFA), and sustainability reporting frameworks
+          such as CSRD and EPD. Strong background in chemical technology and
+          resource management, with a focus on optimizing processes for
+          sustainable supply chains and circular business models. Experienced in
+          collaborating with stakeholders, developing KPIs, and implementing
+          data-driven strategies to address complex sustainability challenges.
+          Adept at leading multidisciplinary projects, driving change, and
+          delivering impactful solutions aligned with corporate sustainability
+          goals.
+        </p>
+      </motion.div>
+
+      {/* Skills */}
+      <motion.div variants={fadeIn} className="mt-8">
+        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <p className="text-gray-700">
+          Project Management, Circular Economy Strategies, Life Cycle Assessment
+          (LCA), Material and Energy Flow Analysis (MFA), ESG frameworks and
+          Environmental Assessment, Sustainable Supply Chain Management, Policy
+          and Legislation Analysis (EU Directives), Research and Development
+          (R&D), Stakeholder Engagement, Communication (Written & Verbal), Data
+          Analysis and Modelling, MultiCriteria Decision Analysis,
+          Sustainability Reporting, Team Leadership, Problem-Solving.
         </p>
       </motion.div>
 

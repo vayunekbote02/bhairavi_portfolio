@@ -82,7 +82,7 @@ const Home = () => (
           and Legislation Analysis (EU Directives), Research and Development
           (R&D), Stakeholder Engagement, Communication (Written & Verbal), Data
           Analysis and Modelling, MultiCriteria Decision Analysis,
-          Sustainability Reporting, Team Leadership, Problem-Solving.
+          Sustainability Reporting, Team Leadership, Problem-Solving
         </p>
       </motion.div>
 
@@ -93,7 +93,7 @@ const Home = () => (
           I enjoy walking/hiking, reading, spending time with friends and
           family. I also like to debate and write. Always open for discussing
           about latest news in science, technology, fashion, cinema and
-          literature.
+          literature. I am a foodie and love to try new cuisines.
         </p>
       </motion.div>
     </motion.div>

@@ -91,7 +91,7 @@ const Home = () => (
         <h2 className="text-2xl font-bold mb-4">Personal Life</h2>
         <p className="text-gray-700">
           In my personal life, I enjoy exploring new technologies, reading, and
-          spending time with my family.
+          spending time with my family
         </p>
       </motion.div>
     </motion.div>

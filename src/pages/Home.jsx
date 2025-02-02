@@ -82,7 +82,7 @@ const Home = () => (
           and Legislation Analysis (EU Directives), Research and Development
           (R&D), Stakeholder Engagement, Communication (Written & Verbal), Data
           Analysis and Modelling, MultiCriteria Decision Analysis,
-          Sustainability Reporting, Team Leadership, Problem-Solving.
+          Sustainability Reporting, Team Leadership, Problem-Solving
         </p>
       </motion.div>
 

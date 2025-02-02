@@ -93,7 +93,7 @@ const Home = () => (
           I enjoy walking/hiking, reading, spending time with friends and
           family. I also like to debate and write. Always open for discussing
           about latest news in science, technology, fashion, cinema and
-          literature. I am a foodie and love to try new cuisines.
+          literature.
         </p>
       </motion.div>
     </motion.div>

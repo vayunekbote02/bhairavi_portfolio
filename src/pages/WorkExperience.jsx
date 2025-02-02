@@ -11,7 +11,6 @@ const WorkExperience = () => (
     </motion.h2>
 
     <motion.div variants={fadeIn} className="space-y-8">
-      {/* Private Science Teacher */}
       <div>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">Private Science Teacher</h3>
@@ -19,7 +18,6 @@ const WorkExperience = () => (
         </div>
         <ul className="list-disc pl-5">
           {" "}
-          {/* Add list-disc and padding-left */}
           <li className="text-gray-700 mt-2">
             Teaching high school students&apos; science. Enhanced student
             learning by optimizing a wide range of instructional approaches.
@@ -31,7 +29,6 @@ const WorkExperience = () => (
         </ul>
       </div>
 
-      {/* Electrochemical Treatment of Effluent */}
       <div>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
@@ -51,7 +48,6 @@ const WorkExperience = () => (
         </ul>
       </div>
 
-      {/* White Biotechnology in Textile Processing */}
       <div>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
@@ -72,7 +68,6 @@ const WorkExperience = () => (
         </ul>
       </div>
 
-      {/* Measurement and Relevance of Different Effluent Parameters */}
       <div>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
@@ -93,7 +88,6 @@ const WorkExperience = () => (
         </ul>
       </div>
 
-      {/* Key Challenges in Sustainability in the Indian Process Industry */}
       <div>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">

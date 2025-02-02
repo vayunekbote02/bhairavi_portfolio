@@ -90,15 +90,10 @@ const Home = () => (
       <motion.div variants={fadeIn} className="mt-8">
         <h2 className="text-2xl font-bold mb-4">Personal Life</h2>
         <p className="text-gray-700">
-<<<<<<< HEAD
-          In my personal life, I enjoy exploring new technologies, reading, and
-          spending time with my family
-=======
           I enjoy walking/hiking, reading, spending time with friends and
           family. I also like to debate and write. Always open for discussing
           about latest news in science, technology, fashion, cinema and
           literature.
->>>>>>> adding_info
         </p>
       </motion.div>
     </motion.div>

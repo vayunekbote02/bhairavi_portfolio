@@ -1,23 +1,30 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../common";
+import { fadeIn, staggerContainer } from "../common";
 
 const WorkExperience = () => (
   <section id="work-experience" className="container mx-auto px-4 py-16">
     <motion.h2
       variants={fadeIn}
+      initial="hidden"
+      animate="visible"
       className="text-3xl font-bold text-center mb-8"
     >
       Work Experience
     </motion.h2>
 
-    <motion.div variants={fadeIn} className="space-y-8">
-      <div>
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      animate="visible"
+      className="space-y-8"
+    >
+      {/* Work Experience 1 */}
+      <motion.div variants={fadeIn}>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">Private Science Teacher</h3>
           <p className="text-gray-600">July 2022 - Feb 2023</p>
         </div>
         <ul className="list-disc pl-5">
-          {" "}
           <li className="text-gray-700 mt-2">
             Teaching high school students&apos; science. Enhanced student
             learning by optimizing a wide range of instructional approaches.
@@ -27,9 +34,10 @@ const WorkExperience = () => (
             learning.
           </li>
         </ul>
-      </div>
+      </motion.div>
 
-      <div>
+      {/* Work Experience 2 */}
+      <motion.div variants={fadeIn}>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
             Electrochemical Treatment of Effluent (colored effluent)
@@ -46,9 +54,10 @@ const WorkExperience = () => (
             industry to degrade pollutants and preserve ecosystems.
           </li>
         </ul>
-      </div>
+      </motion.div>
 
-      <div>
+      {/* Work Experience 3 */}
+      <motion.div variants={fadeIn}>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
             White Biotechnology in Textile Processing
@@ -66,9 +75,10 @@ const WorkExperience = () => (
             optimized resource usage, saving water, time, and energy.
           </li>
         </ul>
-      </div>
+      </motion.div>
 
-      <div>
+      {/* Work Experience 4 */}
+      <motion.div variants={fadeIn}>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
             Measurement and Relevance of Different Effluent Parameters in the
@@ -86,9 +96,10 @@ const WorkExperience = () => (
             pre-treatment and further treatment processes.
           </li>
         </ul>
-      </div>
+      </motion.div>
 
-      <div>
+      {/* Work Experience 5 */}
+      <motion.div variants={fadeIn}>
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <h3 className="text-xl font-semibold">
             Key Challenges in Sustainability in the Indian Process Industry
@@ -108,7 +119,7 @@ const WorkExperience = () => (
             co-management of safety and sustainability in the chemical sector.
           </li>
         </ul>
-      </div>
+      </motion.div>
     </motion.div>
   </section>
 );

@@ -36,8 +36,8 @@ const Header = () => {
           <Link to="/achievements" className="hover:text-blue-500">
             Achievements
           </Link>
-          <Link to="/patent" className="hover:text-blue-500">
-            Patent
+          <Link to="/education" className="hover:text-blue-500">
+            Education
           </Link>
           <Link to="/references" className="hover:text-blue-500">
             References
@@ -82,11 +82,11 @@ const Header = () => {
               Achievements
             </Link>
             <Link
-              to="/patent"
+              to="/education"
               className="hover:text-blue-500"
               onClick={closeMenu}
             >
-              Patent
+              Education
             </Link>
             <Link
               to="/references"

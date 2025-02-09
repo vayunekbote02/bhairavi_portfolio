@@ -29,7 +29,7 @@ const Home = () => (
           style={{ top: "50%" }}
         >
           <img
-            src="public/profile_pic.jpg"
+            src="https://drive.google.com/thumbnail?id=14NSpq4jJaTykuWvaxlTtaJzYE4Gj_HcT&sz=w200-h200"
             alt="Bhairavi Ekbote"
             className="border-4 border-white shadow-lg sm:h-60 h-54 max-sm:w-52 rounded-full sm:rounded-none"
           />

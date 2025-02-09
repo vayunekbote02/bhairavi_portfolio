@@ -68,7 +68,10 @@ const Contact = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="email" className="block text-gray-700 mb-2">
-            Your Email
+            Your Email{" "}
+            <span className="text-gray-500">
+              (So that we can get back to you!)
+            </span>
           </label>
           <input
             id="email"
